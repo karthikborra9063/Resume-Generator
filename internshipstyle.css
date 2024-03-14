@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image:url("https://th.bing.com/th/id/OIP.ahAw10Pc2L0puJj0rHQx-gHaEB?w=327&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+    background:rbga(255,255,255,0.9);
+} 
+h1{
+    font-size:33px
+}
+#Tname{
+    font-size:45px;
+    text-decoration: bold;
+}
+h2{
+    font-size:30px;
+}
+#infouter{
+    display:flex;
+    flex-direction:column;
+}
+#infinner1{
+    display:flex;
+    justify-content:space-around;
+    margin:20px;
+}
+label{
+    font-size:25px;
+}
+input{
+    display:block;
+    margin:2px;
+    height:30px;
+    width:300px;
+    font-size:16px;
+    border-radius:5px;
+    border:1px solid black;
+    padding:2px;
+    background-color: aliceblue;
+}
+textarea{
+    display:block;
+    margin:2px;
+    width:300px;
+    height:43px;
+    font-size:18px;
+    border-radius:5px;
+    border:1px solid black;
+    padding:2px;
+    background-color: aliceblue;
+}
+.btn
+{
+    background-color:rgb(62, 60, 60);
+    margin:3px;
+    width:45px;
+    height:20px;
+    border-radius:5px;
+    position:relative;
+    left:100px;
+    color:wheat;
+}
+#gen{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    right:80px;
+}
+#genres,#printtemplate{
+    margin:15px;
+    width:150px;
+    height:30px;
+    font-size:20px;
+    border-radius:5px;
+    color:bisque;
+    background-color:rgb(7, 74, 82);
+}
+#tempouter{
+    display:none;
+    margin:22px;
+}
+#Tinner1{
+    height:200px;
+    display:flex;
+    justify-content:space-between;
+}
+#Tinner11{
+    height:140px;
+    width:140px;
+    border-radius:50%;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4mYGiDHOtUVcSxuzNfeds4xWXNOpQ-lIMPA&usqp=CAU");
+    background-size:cover;
+    margin-top:10px;
+}
+#Tinner12{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-bottom:20px;
+    margin-left:5px;
+}
+#Tinner13{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    padding-top:20px;
+}
+#i131,#i132,#i133,#i134,#i121,#i122{
+    display:flex;
+    margin:1px;
+    align-items:center;
+}
+#Tprint{
+    margin:20px;
+    position:relative;
+    left:45%;
+}
+ul,p,h3{
+    font-size:20px;
+}
